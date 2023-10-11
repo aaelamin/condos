@@ -20,7 +20,7 @@ def containers(soup):
 
 def main():
     city = input("Enter the city:\n")
-    type = input("Condos for sale or rent:\n")
+    type = input("Search for rent or sale listings: \n")
     soup = load_page(city, type, 1)
     listings = containers(soup)
 
