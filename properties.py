@@ -21,5 +21,4 @@ def main():
     type = "Rent"
     page = 3
     soup = load_page(driver, city, type, page)
-    print(soup.prettify())
 main()
